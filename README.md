@@ -415,7 +415,7 @@ xychart-beta
     title "Overall Preparation Progress (%)"
     x-axis ["Week 1","Week 2","Week 3","Week 4","Week 5","Week 6","Week 7","Week 8","Week 9","Week 10","Week 11","Week 12"]
     y-axis "Completion %" 0 --> 100
-    line [100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 
 
@@ -435,7 +435,7 @@ xychart-beta
 
 ```mermaid
 pie title Phase Completion
-    "Phase 1 – Foundations" : 5
+    "Phase 1 – Foundations" : 0
     "Phase 2 – Git & Community" : 0
     "Phase 3 – Jenkins Internals" : 0
     "Phase 4 – Proposal" : 0

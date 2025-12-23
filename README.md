@@ -413,9 +413,9 @@ Thank you for reviewing.
 ```mermaid
 xychart-beta
     title "Overall Preparation Progress (%)"
-    x-axis ["Week 1","Week 2","Week 3","Week 4","Week 5","Week 6","Week 7","Week 8","Week 9","Week 10","Week 11","Week 12"]
+    x-axis ["W1","W2","W3","W4","W5","W6","W7","W8","W9","W10","W11","W12"]
     y-axis "Completion %" 0 --> 100
-    line [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    line [0,0,0,0,0,0,0,0,0,0,0,0]
 ```
 
 
@@ -425,7 +425,7 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "Pull Requests Over Time"
-    x-axis ["Week 1","Week 2","Week 3","Week 4","Week 5","Week 6","Week 7","Week 8","Week 9","Week 10","Week 11","Week 12"]
+    x-axis ["W1","W2","W3","W4","W5","W6","W7","W8","W9","W10","W11","W12"]
     y-axis "PR Count" 0 --> 15
     line [0,0,0,0,0,0,0,0,0,0,0,0]
 ```

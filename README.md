@@ -1,12 +1,14 @@
-# JENKINS-GSoC-2026
----
+# GSoC-2026-JENKINS
+<br>
+
 # 🚀 Jenkins GSoC 2026 – Daily Preparation Roadmap
+
 
 > A **85-day, day-by-day preparation plan** for Google Summer of Code 2026 with Jenkins, focused on fundamentals, real contributions, and proposal readiness.
 
 This repository documents my structured preparation journey and serves as verifiable proof of learning, execution, and community engagement.
-
----
+<br>
+<br>
 
 ## 🎯 Goal
 
@@ -15,8 +17,7 @@ This repository documents my structured preparation journey and serves as verifi
 - **Background:** Computer Science student, building open-source experience 
 - **Objective:** Become a contributing Jenkins developer and submit a strong, mentor-approved proposal
 - **Approach:** Daily execution + weekly reflection + real pull requests
-
----
+<br>
 
 ## 📁 Repository Structure
 
@@ -47,7 +48,7 @@ jenkins-gsoc-2026/
     ├── draft.md
     └── final.pdf
 ```
----
+<br>
 
 ## 🔗 Jenkins Resources
 
@@ -55,8 +56,7 @@ jenkins-gsoc-2026/
 - [ ] Create Jenkins Discourse account: https://community.jenkins.io/
 - [ ] Bookmark Jenkins Jira: https://issues.jenkins.io/
 - [ ] Bookmark Developer Docs: https://www.jenkins.io/doc/developer/
-
----
+<br>
 
 ## 📌 Contribution Rules
 
@@ -64,12 +64,10 @@ jenkins-gsoc-2026/
 - [ ] Day 31–75: PR attempt every **7 days**
 - [ ] Community interaction starts from **Day 1**
 - [ ] Every PR attempt is documented in `CONTRIBUTIONS.md`
-
----
-
----
+<br>
 
 ## 📈 Contribution Tracker (Live)
+
 
 Detailed and updated list available in [`CONTRIBUTIONS.md`](./CONTRIBUTIONS.md)
 
@@ -83,12 +81,11 @@ Detailed and updated list available in [`CONTRIBUTIONS.md`](./CONTRIBUTIONS.md)
 | Bug Fix PR | ⬜ |
 | Code Modernization PR | ⬜ |
 | GSoC Proposal Submission | ⬜ |
+<br>
 
----
+# 🗓️ 85-Day Preparation Roadmap
 
-## 🗓️ 85-Day Preparation Roadmap
-
-# 🗓️ Day-by-Day Checklist (85 Days)
+## 🗓️ Day-by-Day Checklist (85 Days)
 
 ## 🧩 Phase 1: Java & Linux Foundations  
 ### **24-12-2025 → 07-01-2026**
@@ -168,9 +165,7 @@ Detailed and updated list available in [`CONTRIBUTIONS.md`](./CONTRIBUTIONS.md)
 - [ ] Design CLI Library System
 - [ ] Apply OOP concepts
 - [ ] Push project to GitHub
-
----
-
+<br>
 ## 🔧 Phase 2: Git, Jenkins Basics & Community  
 ### **08-01-2026 → 22-01-2026**
 
@@ -218,9 +213,7 @@ Detailed and updated list available in [`CONTRIBUTIONS.md`](./CONTRIBUTIONS.md)
 ### 18-01-2026
 - [ ] Explore Manage Jenkins
 - [ ] Install common plugins
-
----
-
+<br>
 ## 🧠 Phase 3: Jenkins Internals & Real Contributions  
 ### **19-01-2026 → 19-02-2026**  
 *(Org applications open during this phase)*
@@ -291,9 +284,7 @@ Detailed and updated list available in [`CONTRIBUTIONS.md`](./CONTRIBUTIONS.md)
 ### 19-02-2026
 - [ ] Review accepted org list
 - [ ] Confirm Jenkins participation
-
----
-
+<br>
 ## 📝 Phase 4: Proposal & Contributor Application  
 ### **20-02-2026 → 18-03-2026**
 
@@ -363,32 +354,29 @@ Detailed and updated list available in [`CONTRIBUTIONS.md`](./CONTRIBUTIONS.md)
 ### 18-03-2026
 - [ ] Final reflection
 - [ ] Archive preparation repo
-
----
+<br>
 
 ## 📝 Weekly Logs
 
 Weekly execution and reflections are maintained in `weekly-logs/`.
-
----
+<br>
 
 ## 📌 Notes for Mentors
 
 - Repository is actively maintained
 - All claims are backed by links
 - Contributions align with Jenkins roadmap
-
----
+<br>
 
 ## ✅ Status
 
 - [ ] Preparation Ongoing
 - [ ] Contributions Active
 - [ ] Proposal Submitted
-
----
+<br>
 
 ## 📊 Progress Dashboard
+
 
 ### 🔢 Live Metrics (Auto-calculated)
 > Source of truth: `progress.json` (updated by GitHub Actions)
@@ -402,13 +390,6 @@ Weekly execution and reflections are maintained in `weekly-logs/`.
 
 ---
 
-### ⭐ Final Note
-
-This repository represents long-term commitment to open-source engineering and the Jenkins community.
-
-Thank you for reviewing.
-
----
 
 ### 📈 Overall Completion Trend
 
@@ -452,6 +433,14 @@ pie title Phase Completion
     "Phase 4 – Proposal" : 0
 ```
 
+---
 
 
+### ⭐ Final Note
+
+This repository represents long-term commitment to open-source engineering and the Jenkins community.
+
+Thank you for reviewing.
+
+---
 

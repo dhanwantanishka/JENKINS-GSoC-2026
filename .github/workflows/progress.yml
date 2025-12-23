@@ -1,0 +1,44 @@
+name: Auto Track GSoC Progress
+
+on:
+  push:
+    paths:
+      - "weekly-logs/**"
+      - "CONTRIBUTIONS.md"
+
+jobs:
+  track-progress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate progress metrics
+        run: |
+          echo "Calculating progress..."
+
+          DONE=$(grep -R "\[x\]" weekly-logs | wc -l || echo 0)
+          TOTAL=$(grep -R "\[\ \]" weekly-logs | wc -l || echo 0)
+          PRS=$(grep -R "PR:" CONTRIBUTIONS.md | wc -l || echo 0)
+
+          COMPLETION=$((DONE * 100 / (DONE + TOTAL + 1)))
+
+          cat <<EOF > progress.json
+          {
+            "tasks_completed": $DONE,
+            "tasks_remaining": $TOTAL,
+            "completion_percent": $COMPLETION,
+            "pull_requests": $PRS
+          }
+          EOF
+
+          cat progress.json
+
+      - name: Commit updated progress
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add progress.json
+          git commit -m "chore: auto-update progress metrics" || exit 0
+          git push
